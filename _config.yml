@@ -233,9 +233,8 @@ compress_html:
 
 # Collections
 collections:
-  real-world-python:
+  series:
     output: true
-    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -253,15 +252,11 @@ defaults:
   # _real-world-python
   - scope:
       path: ""
-      type: real-world-python
+      type: series
     values:
       layout: single
-      author: Keyvan Mir Mohammad Sadeghi
-      category: python
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      sidebar:
-        nav: "real-world-python"
