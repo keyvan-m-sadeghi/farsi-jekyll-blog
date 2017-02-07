@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-title: "انجمن ووفورو"
+title: "درباره ما"
 author_profile: false
 excerpt: "انجمن ووفورو چیست؟ چرا به یک بستر آموزش نرم افزار نیاز داریم؟ هدف و ماموریت ما؟ چه کسانی نفع می برند؟"
 header:
