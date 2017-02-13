@@ -2,10 +2,12 @@
 main:
   - title: "درباره ما"
     url: /about/
-  - title: "به انجمن بپیوندید"
+  - title: "بلاگ ها"
+    url: /blogs/
+  - title: "سری های آموزشی"
+    url: /series/
+  - title: "تولید محتوا"
     url: /join/
-  - title: "آرشیو"
-    url: /archive/
 
 real-world-python:
   - title: "پایتون در عمل"

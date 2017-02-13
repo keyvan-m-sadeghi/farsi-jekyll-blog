@@ -93,7 +93,7 @@ fa: &DEFAULT_FA
   comment_form_website_label : "وب سایت (در صورت تمایل)"
   comment_btn_submit         : "ثبت نظر"
   comment_btn_submitted      : "ثبت شد"
-  comment_success_msg        : "از این که نظر خود را ثبت کردید متشکریم!"
+  comment_success_msg        : "از این که نظر خود را ثبت کردید متشکریم! بعد از یک دقیقه صفحه را Refresh کنید تا نظر خود را ببینید"
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
   loading_label              : "در حال بارگذاری..."
 
