@@ -29,7 +29,8 @@ git clone https://github.com/woforo/woforo.github.io.git
 
 منظورم اینه:
 
-`C:\Users\<user\woforo.github.io\_data\authors.yml>`.
+`C:\Users\<user>\woforo.github.io\_data\authors.yml`
+
 - شما آماده ی تولید محتوا هستید!
 
 # ایجاد پروفایل نویسنده
