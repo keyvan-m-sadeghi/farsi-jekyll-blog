@@ -11,12 +11,16 @@ excerpt: "نحوه تولید محتوا در انجمن ووفورو"
 2. نرم افزار [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) را روی سیستمتون نصب کنید.
 3. مشخصات گیت هابتون رو در git وارد کنید. برای لینوکس و مک از ترمینال و برای ویندوز از ‍‍`git bash` که توسط git روی سیستمتون نصب شده استفاده کنید
 و دستورات زیرو وارد کنید:
+
 ```bash
 git config --global user.name "<اسم کاملتون>"
 git config --global user.email <آدرس ایمیلی که باهاش در گیت هاب ثبت نام کردید>
 ```
+
 4. مخزن کد ووفورو را `clone` کنید (این کلمه ی مخزن ترجمه ی بیخودیه، از این به بعد Repository یا آسون تر repo صداش کنیم!):
+
 ```bash
 git clone https://github.com/woforo/woforo.github.io.git
 ```
+
 5. شما آماده ی تولید محتوا هستید!
