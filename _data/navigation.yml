@@ -9,10 +9,10 @@ main:
   - title: "تولید محتوا"
     url: /join/
 
-real-world-python:
-  - title: "پایتون در عمل"
+object-oriented-programming-concepts-with-python:
+  - title: "فهرست"
     children:
-      - title: "آماده سازی"
-        url: /python/real-world-python/setup/
-      - title: "پای چارم"
-        url: /python/real-world-python/pycharm/
+      - title: "مفاهیم برنامه نویسی شی گرا با پایتون"
+        url: /series/keyvan-m-sadeghi/object-oriented-programming-concepts-with-python/intro
+      - title: "برنامه نویسی شی گرا چیه و به چه دردی میخوره؟"
+        url: /series/keyvan-m-sadeghi/object-oriented-programming-concepts-with-python/what-is-oop
