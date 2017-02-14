@@ -51,6 +51,7 @@ pca.fit(X)
 PCA(copy=True, n_components=2, whiten=False)
 print(pca.explained_variance_ratio_) 
 ```
+
 ## More Stuff
 
 * [Python example](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
