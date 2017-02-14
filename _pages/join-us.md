@@ -131,7 +131,7 @@ modified: <YYYY-MM-DD>
 permalink: /blogs/agmirza/jekyll-introduction
 title: "آشنایی با Jekyll پلتفرمی برای ساختن سایت های استاتیک"
 author: Asghar Gholi Mirza
-exerpt: "جکیل تکنولوژی بسیار جالبی است که می توانید به سرعت با آن سایت استاتیک بسازید"
+excerpt: "جکیل تکنولوژی بسیار جالبی است که می توانید به سرعت با آن سایت استاتیک بسازید"
 categories:
   - طراحی-وب
 tags: [jekyll, static, طراحی-وب, استاتیک]
@@ -197,6 +197,7 @@ git push
 permalink: /series/agmirza/jekyll-tutorial/why-jekyll
 title: "چرا از جکیل استفاده کنیم؟"
 author: Asghar Gholi Mirza
+excerpt: "جکیل یک پلتفرم برای تولید صفحات استاتیک وب است. مقایسه جکیل با سایر گزینه ها"
 
 # ساید بار
 sidebar:
@@ -206,7 +207,6 @@ sidebar:
 # این پست صفحه ی اول است؟
 is_cover: true
 
-exerpt: "جکیل یک پلتفرم برای تولید صفحات استاتیک وب است. مقایسه جکیل با سایر گزینه ها"
 categories:
   - طراحی-وب
 tags: [jekyll, static, طراحی-وب, استاتیک]

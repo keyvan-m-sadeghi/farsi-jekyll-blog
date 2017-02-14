@@ -2,7 +2,7 @@
 permalink: /blogs/HosseinAbedi/curse-of-dimensionality
 title: Curse of Dimensionality And Dimensionality Reduction
 author: Hossein Abedi
-exerpt: A brief Introduction to `Curse of Dimensionality`
+excerpt: "A brief Introduction to Curse of Dimensionality"
 tags: ["dimensionality-reduction", "curse-of-dimensionality", "ML"]
 categories: ["machine-learning"]
 header:
