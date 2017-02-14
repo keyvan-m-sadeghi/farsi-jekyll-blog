@@ -2,11 +2,9 @@
 permalink: /blogs/HosseinAbedi/moving-z-score
 title: Moving Z-Score
 author: Hossein Abedi
-exerpt: A brief Introduction to `Moving Z-Score`
+excerpt: A brief Introduction to `Moving Z-Score`
 tags: ["anomaly-detection", "outlier-detection", "ML"]
 categories: ["machine-learning"]
-header:
-  image: "/assets/images/HosseinAbedi/headers/zscore.png"
 ---
 
 
@@ -142,10 +140,22 @@ and the moving standard deviation is:
       <mn>2</mn>
     </msup>
   </msqrt>
+  <mi>.</mi>
 </math>
- Since there are not sufficient points to calculate the moving average and moving standard deviation at the begging, we suppose that  the moving Z-score at points within window_size observations of the beginning of a series are undefined. The scores of thiese values are represented by missing (undefined) values.
+ Since there are not sufficient points to calculate the moving average and moving standard deviation at the beginning, we suppose that  the moving Z-score at points within window_size observations of the beginning of a series are undefined. The scores of these values are represented by missing (undefined) values.
 
 Whenever there is no variation in the values preceding a given observation (i.e. a series of constant values), the moving Z-score can be infinite or undefined. 
+
+## Notice:
+Moving z-score is calculated under a set of assumptions that can limit its applicability in the real world problems. These assumptions are as foolows: 
+* in a certain window data points may have a distribution with definite variance (variance is not infinite)
+* and mean of the data points is not undefined.
+
+For example, in case of [Cauchy](https://en.wikipedia.org/wiki/Cauchy_distribution) and [Levy](https://en.wikipedia.org/wiki/L%C3%A9vy_distribution) distributions have infinite variances and also means of the distributions are undefined, z-score could not be very helpful for finding the abnormal data points.
+The main advantages of this method are 
+* its simplicity 
+* and the capability of it to be used for finding anomalous data points in a stream of data (online anomaly detection).
+
 
 
 
