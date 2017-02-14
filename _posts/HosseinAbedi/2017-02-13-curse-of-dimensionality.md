@@ -56,5 +56,3 @@ print(pca.explained_variance_ratio_)
 
 * [Python example](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 * [R example](http://www.r-bloggers.com/pca-and-k-means-clustering-of-delta-aircraft)
-
-
