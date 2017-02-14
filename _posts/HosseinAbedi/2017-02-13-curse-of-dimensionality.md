@@ -9,10 +9,6 @@ header:
   image: "/assets/images/HosseinAbedi/headers/cod.png"
 ---
 
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 ## Introduction
 
 This could mean a lot of things in different contexts but in the context of machine learning, it a is simple but important concept. I am going to describe it in an example:
