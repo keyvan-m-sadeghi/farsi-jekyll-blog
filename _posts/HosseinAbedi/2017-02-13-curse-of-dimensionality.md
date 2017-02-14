@@ -3,15 +3,11 @@ permalink: /blogs/HosseinAbedi/curse-of-dimensionality
 title: Curse of Dimensionality And Dimensionality Reduction
 author: Hossein Abedi
 exerpt: A brief Introduction to `Curse of Dimensionality`
-tags: ["dimensionality reduction", "curse of dimensionality"]
-categories: ["machine learning", "ML"]
+tags: ["dimensionality-reduction", "curse-of-dimensionality", "ML"]
+categories: ["machine-learning"]
 header:
   image: "/assets/images/HosseinAbedi/headers/cod.png"
 ---
-
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 ## Introduction
 
