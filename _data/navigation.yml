@@ -2,10 +2,10 @@
 main:
   - title: "درباره ما"
     url: /about/
-  - title: "بلاگ ها"
-    url: /blogs/
   - title: "سری های آموزشی"
     url: /series/
+  - title: "بلاگ ها"
+    url: /blogs/
   - title: "تولید محتوا"
     url: /join/
 
