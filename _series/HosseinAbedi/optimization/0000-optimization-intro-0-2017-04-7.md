@@ -2,7 +2,7 @@
 permalink: /series/HosseinAbedi/optimization/optimization-intro-0
 title: بهینه‌سازی
 author: Hossein Abedi
-excerpt: معرفی بهینه‌سازی به همراه بررسی تعدادی از روش‌های معروف بهینه‌سازی به همراه مثال
+excerpt: معرفی بهینه‌سازی به همراه بررسی تعدادی از روش‌های متداول بهینه‌سازی به همراه مثال
 is_cover: true
 ---
 
