@@ -26,5 +26,4 @@ import numpy as np
 vector_0 = np.array([9, 0, 5, 5])
 matrix_0 = np.array([[4, 5], [50, 60]])
 ```
-با مراجعه به لینک رو‌برو می‌تونین با یه سری مثال با نامپای بیشتر آشنا بشین:
-[numpy](/assets/dashboards/HosseinAbedi/numpy.ipynb).
+با مراجعه به [numpy](/assets/dashboards/HosseinAbedi/numpy.ipynb) می‌تونین با یه سری مثال با نامپای بیشتر آشنا بشین.
