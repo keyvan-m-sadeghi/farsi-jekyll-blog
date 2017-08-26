@@ -1,12 +1,10 @@
 ---
-permalink: /series/HosseinAbedi/numerical-python-tutorial/numerical-python-tutorial-intro-0
+permalink: /series/HosseinAbedi/numerical-python-tutorial/numerical-python-tutorial-intro-1
 title:    آموزش پایتون برای محاسبات عددی و آمار
 author: Hossein Abedi
 excerpt: آموزش پایتون برای پیاده‌سازی سریع روش‌های محاسباتی و آماری
-is_cover: true
+is_cover: false
 ---
-
-یکی از ویژگی‌های خوب پایتون اینه که برای خیلی از زمینه‌های تحقیقاتی براش یه عالمه کتابخونه پیدا می‌شه. تو اینجا یه سری کتابخونه برای کارهای مربوط به دیتاساینس هستن رو می خواهیم با هم بررسی کنیم و تعدادی از فانکشنالیتی های مربوط به اون‌ها رو هم با تعدادی مثال ببینیم.
 
 # Numpy
 کتابخونه‌ی نامپای یکی از کتابخونه‌های قدیمیه پایتونه که برای محاسبات عددی معرفی شده. 
