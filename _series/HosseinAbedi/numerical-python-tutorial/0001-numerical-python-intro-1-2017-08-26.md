@@ -1,6 +1,6 @@
 ---
 permalink: /series/HosseinAbedi/numerical-python-tutorial/numerical-python-tutorial-intro-1
-title:    آموزش پایتون برای محاسبات عددی و آمار
+title:  آموزش پایتون برای Data Science
 author: Hossein Abedi
 excerpt: آموزش پایتون برای پیاده‌سازی سریع روش‌های محاسباتی و آماری
 is_cover: false
