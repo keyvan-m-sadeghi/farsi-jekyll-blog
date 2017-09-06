@@ -80,14 +80,14 @@ $$(x_{new}, f(x_{new}))$$
 ## پیاده‌سازی 
 
 مثال زیر رو که مربوط به تابع
-[Hölder table function](https://en.wikipedia.org/wiki/Test_functions_for_optimization)
+[Holder table function](https://en.wikipedia.org/wiki/Test_functions_for_optimization)
 هستش رو در نظر بگیرین. این تابع یه تابع دوبعدی هستش که به عنوان یه تابع محک برای بررسی عملکرد روش‌های بهینه‌سازی مورد استفاده قرار می‌گیره.
 این تابع توی دامنه‌ی جستجوی خودش چندتا نقطه‌ی بهینه‌ی سراسری و تعداد زیادی نقطه‌ی بهینه‌ی محلی داره.
 ```python 
 import numpy as np
 
 def f(s: 'candidate solution') -> 'f(x)':
-    """Hölder table function, for more information please have a look at 
+    """Holder table function, for more information please have a look at 
        `https://en.wikipedia.org/wiki/Test_functions_for_optimization`
     """
     x = s[0]
@@ -107,7 +107,7 @@ from time import time
 matplotlib.rcParams['figure.figsize'] = (10, 10)
 
 def f(s: 'candidate solution (a numpy array)') -> 'f(x)':
-    """Hölder table function, for more information please have a look at 
+    """Holder table function, for more information please have a look at 
        `https://en.wikipedia.org/wiki/Test_functions_for_optimization`
     """
     x = s[0]
