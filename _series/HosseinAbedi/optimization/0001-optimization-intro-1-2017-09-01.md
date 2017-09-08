@@ -1,6 +1,6 @@
 ---
 permalink: /series/HosseinAbedi/optimization/optimization-intro-1
-title: بهینه‌سازی
+title:  سردکردن تدریجی فلزات
 author: Hossein Abedi
 excerpt: معرفی بهینه‌سازی به همراه بررسی تعدادی از روش‌های متداول بهینه‌سازی به همراه مثال
 is_cover: false
@@ -14,6 +14,7 @@ is_cover: false
 ایدش خیلی نسبتا سادس ولی کاربردای زیادی توی حل مساله‌های مختلف داره.
   
 ## ایده‌‌ی کلی روش
+
 در این روش مثل خیلی از روش‌های دیگه‌ی بهینه‌سازی فرض بر اینه که ما می‌خواهیم فضای جستجوی مساله‌ رو طوری بگردیم که به یه نقطه‌ی بهینه‌ی سراسری (global optimum) برسیم. طبق معمول مشکل ما اینه که الگوریتم‌ها هیچ دانشی ممکنه از فضای جستجو نداشنه باشن و فقط در هر قدم می‌تونن چند تا ارزیابی تابع انجام بدن یعنی فقط می‌تونن تا حدی حدث بزنن که 
 **عرصه‌ی شایستگی** (fitness landscape) 
  اطرافشون چه شکلیه.
@@ -39,11 +40,9 @@ SA
 
 ## مراحل الگوریتم
 
-
 مراحل اجرای این الگوریتم (نسخه‌‌ای که اینجا توضیح می‌دم نسبتا خیلی سازدس ولی 
 نسخه‌های پیچیده‌تر از این با بهبود بخش‌های مختلف همین نسخه قابل ایجادن)
  برای یه مساله‌ی کمینه‌سازی به شرح زیره:
-
  
 * یه نامزد جواب به صورت تصادفی در فضای جستجو ایجاد می‌کنیم و اون رو ارزیابی می‌کنیم:
 
@@ -60,7 +59,6 @@ $$(x_{old}, f(x_{old}))$$
 &t_{i + 1} = t_i . \alpha, i = 1, 2, 3, .. 
 \end{align}
 
-
 * یه نامزد جواب دیگه هم به در همسایگی قبلی با یه روشی مثلا تپه‌نوردی تولید می‌کنیم و مقدار تابع به ازای اون رو حساب می‌کنیم:
 
 $$(x_{new}, f(x_{new}))$$
@@ -70,7 +68,7 @@ $$(x_{new}, f(x_{new}))$$
 به احتمالی که متناسب با
 
 \begin{align}
-\exp{(-\frac{(f_new - f_old)}{t_i})}
+\exp{(-\frac{(f_{new} - f_{old})}{t_i})}
 \end{align}
 
 در هر تکرار جواب بدتر رو می‌پذیریم.
@@ -92,7 +90,7 @@ def f(s: 'candidate solution') -> 'f(x)':
     """
     x = s[0]
     y = s[1]
-    return -np.abs(np.sin(x) *np.cos(y) * np.exp(np.abs(1 - np.sqrt(np.power(x, 2) + np.power(y, 2)) / np.pi)))
+    return -np.abs(np.sin(x) * np.cos(y) * np.exp(np.abs(1 - np.sqrt(np.power(x, 2) + np.power(y, 2)) / np.pi)))
 ```
 با یه پیاده‌سازی خیلی ساده از
 SA
@@ -120,7 +118,6 @@ def check_boundary(s: 'candidate solution (a numpy array)', boundaries: """
     s[s < boundaries[0]] = boundaries[0]
     s[s > boundaries[1]] = boundaries[1]
     return s
-    
     
 start = time() # a varibale for storing the starting time of the algorithm
 objective_function = f # the objective function to be `minimized` 

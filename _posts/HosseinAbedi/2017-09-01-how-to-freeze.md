@@ -2,7 +2,7 @@
 permalink: /blogs/HosseinAbedi/how-to-freeze
 title: مدیریت وابستگی‌ها در پایتون
 author: Hossein Abedi
-excerpt: ایجاپ فایل وابستگی‌های یک برنامه‌ی پایتون
+excerpt: ایجاد فایل وابستگی‌های یک برنامه‌ی پایتون
 tags: ["dependency-management", "python", "programing"]
 categories: ["python"]
 ---
@@ -11,7 +11,7 @@ categories: ["python"]
 
 ## مدیریت کتابخانه‌ها در پایتون
 
-یه مشکلی که من در مورد خیلی بهش که با پایتون کد میزنن بر خوردم این بوده که آدما وقتی می‌خوان یه 
+یه مشکلی که من در مورد خیلی‌ها که با پایتون کد میزنن بر خوردم این بوده که آدما وقتی می‌خوان یه 
 برنامه‌ی پایتون رو که نوشتن به گیت انتقال بدن و یا با داکر ازش یه ایمج بسازن اینه که آدما فایل 
 `requirments.txt`
 رو همراه برنامه قرار نمی‌دن تا زندگی خودشون رو راحت‌تر کنن. برای همین 
@@ -38,6 +38,7 @@ virtualenv،
 ```sh
 virtualenv  home/$USER/MyPython
 ```
+
 ![](/assets/images/HosseinAbedi/images/req_0.png)
 
 بعد اینکار برای ترمینالی که توش هستیم با دستور زیر این مفسر رو فعال می‌کنیم. در واقع تا وقتی این تب از ترمینال رو نبستیم مفسر پایتون نصب‌شده توی 
@@ -47,8 +48,8 @@ MyPython
 ```sh
 source  /home/$USER/MyPython/bin/activate 
 ```
-![](/assets/images/HosseinAbedi/images/req_1.png)
 
+![](/assets/images/HosseinAbedi/images/req_1.png)
 
 بعد از اینکه مفسر پایتون مورد نظر رو فعال کردیم به پوشه‌ای که کد‌های خفن پایتونمون توشه می‌ریم و سعی می‌کنیم و برنامه‌ی خودمون رو اجرا کنیم.
 
@@ -57,7 +58,6 @@ source  /home/$USER/MyPython/bin/activate
 ```python
 import numpy as np
 import pylab as plt
-
 
 if __name__ == "__main__":
     
